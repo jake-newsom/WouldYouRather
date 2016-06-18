@@ -1,0 +1,4 @@
+﻿  template.cpp
+AGKWindows.lib(stdafx.obj) : warning LNK4099: PDB 'atls.pdb' was not found with 'AGKWindows.lib(stdafx.obj)' or at 'C:\Users\John\Documents\AGKLibs\apps\WouldYouRather\Final\atls.pdb'; linking object as if no debug info
+AGKWindows.lib(atlbase.obj) : warning LNK4099: PDB 'atls.pdb' was not found with 'AGKWindows.lib(atlbase.obj)' or at 'C:\Users\John\Documents\AGKLibs\apps\WouldYouRather\Final\atls.pdb'; linking object as if no debug info
+  Template.vcxproj -> C:\Users\John\Documents\AGKLibs\apps\WouldYouRather\Final\Template.exe

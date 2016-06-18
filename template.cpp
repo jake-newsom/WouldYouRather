@@ -1,5 +1,8 @@
 // Includes
 #include "template.h"
+#include "GameState.h"
+
+#include <time.h>
 
 // Namespace
 using namespace AGK;
@@ -14,9 +17,13 @@ void app::Begin(void)
 	agk::SetScissor(0,0,0,0);
 }
 
-void app::Loop (void)
+void app::Update()
 {
 	agk::Print( agk::ScreenFPS() );
+}
+
+void app::Render()
+{
 	agk::Sync();
 }
 
